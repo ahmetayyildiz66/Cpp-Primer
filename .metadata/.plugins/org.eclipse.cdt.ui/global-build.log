@@ -1,0 +1,23 @@
+13:19:02 **** Rebuild of configuration Debug for project Cpptest ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Hello2.o "..\\Hello2.cpp" 
+g++ -o Cpptest.exe Hello2.o 
+Info: Nothing to build for CppPrimer
+Info: Nothing to build for Cpptest
+14:16:42 **** Rebuild of configuration Debug for project Cpptest ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Hello2.o "..\\Hello2.cpp" 
+g++ -o Cpptest.exe Hello2.o 
+Info: Nothing to build for Cpptest
+Info: Nothing to build for Cpptest
+Info: Nothing to build for Cpptest
+14:17:33 **** Rebuild of configuration Debug for project 001-Bookstore ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Hello.o "..\\Hello.cpp" 
+g++ -o 001-Bookstore.exe Hello.o 
+14:22:00 **** Incremental Build of configuration Debug for project 001-Bookstore ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Bookstore.o "..\\Bookstore.cpp" 
+g++ -o 001-Bookstore.exe Bookstore.o 
+Info: Nothing to build for 001-Bookstore
+Info: Nothing to build for 001-Bookstore
