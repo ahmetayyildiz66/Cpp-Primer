@@ -164,3 +164,6 @@ Caused by: java.lang.NullPointerException
 
 !ENTRY org.eclipse.cdt.core 1 0 2019-07-19 14:59:30.111
 !MESSAGE Indexed '002-IO' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-19 15:05:35.688
+!MESSAGE Indexed '003-while' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

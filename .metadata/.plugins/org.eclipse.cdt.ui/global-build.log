@@ -1,5 +1,45 @@
-15:01:53 **** Rebuild of configuration Debug for project 002-IO ****
+15:07:25 **** Rebuild of configuration Debug for project 003-while ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o IO.o "..\\IO.cpp" 
-g++ -o 002-IO.exe IO.o 
-Info: Nothing to build for 002-IO
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o while.o "..\\while.cpp" 
+g++ -o 003-while.exe while.o 
+Info: Nothing to build for 003-while
+15:08:48 **** Incremental Build of configuration Debug for project 003-while ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o while.o "..\\while.cpp" 
+..\while.cpp: In function 'int main()':
+..\while.cpp:13:7: error: 'count' is not a member of 'std'
+  std::count<<"v1: "<<v1<<" v2 :"<<v2;
+       ^~~~~
+..\while.cpp:13:7: note: suggested alternative: 'cout'
+  std::count<<"v1: "<<v1<<" v2 :"<<v2;
+       ^~~~~
+       cout
+15:08:54 **** Incremental Build of configuration Debug for project 003-while ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o while.o "..\\while.cpp" 
+g++ -o 003-while.exe while.o 
+Info: Nothing to build for 003-while
+15:09:41 **** Incremental Build of configuration Debug for project 003-while ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o while.o "..\\while.cpp" 
+..\while.cpp: In function 'int main()':
+..\while.cpp:14:2: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+  while(v1 < v2)
+  ^~~~~
+..\while.cpp:16:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+   sum += v1;
+   ^~~
+..\while.cpp: At global scope:
+..\while.cpp:19:1: error: expected declaration before '}' token
+ }
+ ^
+15:09:48 **** Incremental Build of configuration Debug for project 003-while ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o while.o "..\\while.cpp" 
+g++ -o 003-while.exe while.o 
+Info: Nothing to build for 003-while
+15:10:50 **** Incremental Build of configuration Debug for project 003-while ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o while.o "..\\while.cpp" 
+g++ -o 003-while.exe while.o 
+Info: Nothing to build for 003-while
